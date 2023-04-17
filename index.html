@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .big_head{color:red}
+    </style> <!use of internal css through class referencing>
+</head>
+<body style="background-color:aqua"> <!USE OF INLINE CSS>
+    <h1 class="big_head";style="color:grey">Student Registration Form</h1>
+    <h3>Personal Details:</h3>
+    <b>First Name:</b><input class="box" type="text" name="name1" placeholder="First Name" maxlength="20">
+    <b>Last Name:</b><input class="box"  type="text" name="name2" placeholder="Last Name" maxlength="10">
+    <br><br>
+    <b>Phone Number:</b><input class="box"  type="text" name="no." placeholder="Phone Number" maxlength="10">
+    <b>Email Id:</b><input class="box"  type="text" name="email" placeholder="eMail id" maxlength="20">
+    <br><br>
+    <hr><br>
+    <b>Academic Details:</b>
+    <br><br>
+    <b>Graduation Degree:</b>
+    <input type="radio" name="deg" value="bsc">B.Sc.
+    <input type="radio" name="deg" value="bca">BCA
+    <input type="radio" name="deg" value="B.Com.">B.Com. 
+    <br><br>
+    <b>Above 60% in:</b>
+    <input class="check"  type="checkbox" name="class" value="10">10th Exams
+    <input class="check"  type="checkbox" name="class" value="12">12th Exams   
+    <input class="check"  type="checkbox" name="class" value="grad">Graduation
+    <br><br><hr><br>
+    <b>Comments:</b><br><br>
+    <textarea class="cmnt" name="txtarea" rows=10 cols=198></textarea>
+    <br><br><br>
+    <input type="submit">
+    <button type="button">Submit</button>
+</body>
+</html>

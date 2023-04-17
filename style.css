@@ -1,0 +1,42 @@
+b 
+{
+    color:rgb(0, 232, 97);
+    font-size: 18px;
+}/*to reference an element you simply write the name.*/
+input {color:blue;}
+button 
+{
+    background-color:cyan;
+    color:red;
+    cursor:pointer;
+    border-radius: 30px;/* makes it circular perhaps*/
+}
+.big_head 
+{
+    background-color: brown;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius:20px;
+    border: solid 10px crimson;
+    text-align: center;
+}
+.box
+{
+    background-color: aquamarine;
+    padding:10px;
+    border:8px solid yellow;
+    margin:20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius:20px;
+    text-align: center;
+}
+.cmnt 
+{
+    width:100%;
+    background-color:transparent;
+}
+body
+{
+    background-image: url("https://images.unsplash.com/photo-1681210994962-f1483b0b569d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8Ym84alFLVGFFMFl8fGVufDB8fHx8&auto=format&fit=crop&w=900&q=60");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
