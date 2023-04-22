@@ -3,7 +3,6 @@ b
     color:rgb(0, 232, 97);
     font-size: 18px;
 }/*to reference an element you simply write the name.*/
-input {color:blue;}
 button 
 {
     background-color:cyan;
